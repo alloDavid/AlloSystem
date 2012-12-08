@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA744A7C166E9BE700941914 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5B67366166E99AD00487AD5 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F5B6734B166E938000487AD5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F5B6734D166E938000487AD5 /* AlloTemplate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlloTemplate; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B67366166E99AD00487AD5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5B6734A166E938000487AD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5B67342166E938000487AD5 = {
+			isa = PBXGroup;
+			children = (
+				F5B67364166E99AD00487AD5 /* source */,
+				F5B6734E166E938000487AD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5B6734E166E938000487AD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5B6734D166E938000487AD5 /* AlloTemplate */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5B67364166E99AD00487AD5 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				F5B67366166E99AD00487AD5 /* main.cpp */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5B6734C166E938000487AD5 /* XcodeTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B67357166E938000487AD5 /* Build configuration list for PBXNativeTarget "XcodeTemplate" */;
+			buildPhases = (
+				F5B67349166E938000487AD5 /* Sources */,
+				F5B6734A166E938000487AD5 /* Frameworks */,
+				F5B6734B166E938000487AD5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XcodeTemplate;
+			productName = AlloTest;
+			productReference = F5B6734D166E938000487AD5 /* AlloTemplate */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5B67344166E938000487AD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ryan McGee";
+			};
+			buildConfigurationList = F5B67347166E938000487AD5 /* Build configuration list for PBXProject "XcodeTemplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5B67342166E938000487AD5;
+			productRefGroup = F5B6734E166E938000487AD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5B6734C166E938000487AD5 /* XcodeTemplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5B67349166E938000487AD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA744A7C166E9BE700941914 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F5B67355166E938000487AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../build/include\"";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../build/lib\"",
+					/usr/local/lib,
+					/opt/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lapr-1",
+					"-laprutil-1",
+					"-lfreeimage",
+					"-lassimp",
+					"-lfreetype",
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CoreAudio,
+					"-framework",
+					CoreMIDI,
+					"-framework",
+					Carbon,
+					"-lportaudio",
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					"-framework",
+					GLUT,
+					"-lpthread",
+					"-framework",
+					Cocoa,
+					"-framework",
+					Foundation,
+					"-lallocore",
+					"-lalloutil",
+				);
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		F5B67356166E938000487AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../build/include\"";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../build/lib\"",
+					/usr/local/lib,
+					/opt/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-lapr-1",
+					"-laprutil-1",
+					"-lfreeimage",
+					"-lassimp",
+					"-lfreetype",
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CoreAudio,
+					"-framework",
+					CoreMIDI,
+					"-framework",
+					Carbon,
+					"-lportaudio",
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					"-framework",
+					GLUT,
+					"-lpthread",
+					"-framework",
+					Cocoa,
+					"-framework",
+					Foundation,
+					"-lallocore",
+					"-lalloutil",
+				);
+				SDKROOT = "";
+			};
+			name = Release;
+		};
+		F5B67358166E938000487AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../build/include\"";
+				PRODUCT_NAME = AlloTemplate;
+			};
+			name = Debug;
+		};
+		F5B67359166E938000487AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../build/include\"";
+				PRODUCT_NAME = AlloTemplate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5B67347166E938000487AD5 /* Build configuration list for PBXProject "XcodeTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B67355166E938000487AD5 /* Debug */,
+				F5B67356166E938000487AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B67357166E938000487AD5 /* Build configuration list for PBXNativeTarget "XcodeTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B67358166E938000487AD5 /* Debug */,
+				F5B67359166E938000487AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5B67344166E938000487AD5 /* Project object */;
+}
